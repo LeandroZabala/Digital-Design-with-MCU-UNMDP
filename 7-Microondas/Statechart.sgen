@@ -1,0 +1,16 @@
+GeneratorModel for yakindu::c {
+
+	const PROJECT : string = "7-Microondas"
+
+	const FOLDER : string = "src"
+
+	statechart Microondas {
+
+		feature Outlet {
+			targetProject = PROJECT
+			targetFolder = FOLDER
+			libraryTargetFolder = "src"
+		}
+		feature GeneralFeatures { timerService = true }
+	}
+}

@@ -1,0 +1,10 @@
+11:56:09 **** Incremental Build of configuration Debug for project 6-Fotometro ****
+make all 
+arm-none-eabi-size   6-Fotometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5960	     20	   1164	   7144	   1be8	6-Fotometro.elf
+Finished building: default.size.stdout
+ 
+
+11:56:09 Build Finished. 0 errors, 0 warnings. (took 239ms)
+

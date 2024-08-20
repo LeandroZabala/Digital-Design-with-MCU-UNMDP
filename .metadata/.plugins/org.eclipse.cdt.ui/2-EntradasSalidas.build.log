@@ -1,0 +1,10 @@
+09:38:06 **** Incremental Build of configuration Debug for project 2-EntradasSalidas ****
+make all 
+arm-none-eabi-size   2-EntradasSalidas.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2468	     20	   1060	   3548	    ddc	2-EntradasSalidas.elf
+Finished building: default.size.stdout
+ 
+
+09:38:07 Build Finished. 0 errors, 0 warnings. (took 317ms)
+

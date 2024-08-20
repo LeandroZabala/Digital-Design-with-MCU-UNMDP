@@ -1,0 +1,6 @@
+"src/Microondas.o"
+"src/main.o"
+"src/sc_timer_service.o"
+"src/syscalls.o"
+"src/system_stm32f4xx.o"
+"startup/startup_stm32f407xx.o"

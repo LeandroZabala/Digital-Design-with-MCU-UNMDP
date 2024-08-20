@@ -1,0 +1,10 @@
+11:14:18 **** Incremental Build of configuration Debug for project TestNegro ****
+make -j4 all 
+arm-none-eabi-size   TestNegro.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5612	     20	   1572	   7204	   1c24	TestNegro.elf
+Finished building: default.size.stdout
+ 
+
+11:14:19 Build Finished. 0 errors, 0 warnings. (took 536ms)
+

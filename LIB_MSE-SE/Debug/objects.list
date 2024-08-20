@@ -1,0 +1,7 @@
+"src/Buzzer.o"
+"src/ConversorxInts.o"
+"src/Entradas.o"
+"src/I2C.o"
+"src/ICTimer.o"
+"src/Salidas.o"
+"src/SysTick.o"

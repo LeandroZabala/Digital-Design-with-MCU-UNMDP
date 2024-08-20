@@ -1,0 +1,10 @@
+16:28:26 **** Incremental Build of configuration Debug for project 4-Temperatura ****
+make all 
+arm-none-eabi-size   4-Temperatura.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11792	    124	   1212	  13128	   3348	4-Temperatura.elf
+Finished building: default.size.stdout
+ 
+
+16:28:26 Build Finished. 0 errors, 0 warnings. (took 248ms)
+

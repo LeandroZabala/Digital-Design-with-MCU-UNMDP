@@ -1,0 +1,12 @@
+I2C.c:10:6:Init_I2C	8	static
+I2C.c:39:6:HAL_I2C_MspInit	48	static
+I2C.c:85:7:NMI_Handler	4	static
+I2C.c:94:7:HardFault_Handler	4	static
+I2C.c:107:7:MemManage_Handler	4	static
+I2C.c:120:7:BusFault_Handler	4	static
+I2C.c:133:7:UsageFault_Handler	4	static
+I2C.c:146:7:SVC_Handler	4	static
+I2C.c:155:7:DebugMon_Handler	4	static
+I2C.c:164:7:PendSV_Handler	4	static
+I2C.c:180:7:I2C2_EV_IRQHandler	8	static
+I2C.c:191:7:I2C2_ER_IRQHandler	8	static

@@ -1,0 +1,5 @@
+sc_timer_service.c:8:13:sc_timer_fired	16	static
+sc_timer_service.c:13:6:sc_timer_set	32	static
+sc_timer_service.c:42:6:sc_timer_unset	24	static
+sc_timer_service.c:58:6:sc_timer_service_init	32	static
+sc_timer_service.c:74:6:sc_timer_service_proceed	32	static

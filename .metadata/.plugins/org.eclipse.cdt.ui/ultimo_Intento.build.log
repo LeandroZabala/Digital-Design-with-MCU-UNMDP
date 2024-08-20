@@ -1,0 +1,10 @@
+22:17:36 **** Incremental Build of configuration Debug for project ultimo_Intento ****
+make -j4 all 
+arm-none-eabi-size   ultimo_Intento.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4740	     20	   1572	   6332	   18bc	ultimo_Intento.elf
+Finished building: default.size.stdout
+ 
+
+22:17:36 Build Finished. 0 errors, 0 warnings. (took 312ms)
+

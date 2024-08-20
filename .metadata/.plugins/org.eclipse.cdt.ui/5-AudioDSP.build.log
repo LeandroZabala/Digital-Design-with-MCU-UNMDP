@@ -1,0 +1,10 @@
+11:53:53 **** Incremental Build of configuration Debug for project 5-AudioDSP ****
+make all 
+arm-none-eabi-size   5-AudioDSP.elf 
+   text	   data	    bss	    dec	    hex	filename
+  67220	    200	  17896	  85316	  14d44	5-AudioDSP.elf
+Finished building: default.size.stdout
+ 
+
+11:53:53 Build Finished. 0 errors, 0 warnings. (took 253ms)
+

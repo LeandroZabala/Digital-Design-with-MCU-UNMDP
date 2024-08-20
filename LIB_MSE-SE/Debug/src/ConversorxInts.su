@@ -1,0 +1,3 @@
+ConversorxInts.c:8:6:ADC1_TIM3_Init	80	static
+ConversorxInts.c:93:6:ADC_IRQHandler	8	static
+ConversorxInts.c:98:6:HAL_ADC_ConvCpltCallback	24	static

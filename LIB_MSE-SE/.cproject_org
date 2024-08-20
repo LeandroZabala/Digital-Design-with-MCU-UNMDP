@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="fr.ac6.managedbuild.config.gnu.cross.lib.debug.1918536447">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="fr.ac6.managedbuild.config.gnu.cross.lib.debug.1918536447" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/LIB_MSE-SE"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/LIB_MSE-SE/Debug"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="LIB_MSE-SE" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="fr.ac6.managedbuild.config.gnu.cross.lib.debug.1918536447" name="Debug" parent="fr.ac6.managedbuild.config.gnu.cross.lib.debug">
+					<folderInfo id="fr.ac6.managedbuild.config.gnu.cross.lib.debug.1918536447." name="/" resourcePath="">
+						<toolChain id="fr.ac6.managedbuild.toolchain.gnu.cross.lib.debug.1487528248" name="Ac6 STM32 MCU GCC" superClass="fr.ac6.managedbuild.toolchain.gnu.cross.lib.debug">
+							<option id="fr.ac6.managedbuild.option.gnu.cross.mcu.677424335" name="Mcu" superClass="fr.ac6.managedbuild.option.gnu.cross.mcu" useByScannerDiscovery="false" value="STM32F407VGTx" valueType="string"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.fpu.1840972611" name="Floating point hardware" superClass="fr.ac6.managedbuild.option.gnu.cross.fpu" useByScannerDiscovery="false" value="fr.ac6.managedbuild.option.gnu.cross.fpu.fpv4-sp-d16" valueType="enumerated"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.floatabi.101007062" name="Floating-point ABI" superClass="fr.ac6.managedbuild.option.gnu.cross.floatabi" useByScannerDiscovery="false" value="fr.ac6.managedbuild.option.gnu.cross.floatabi.hard" valueType="enumerated"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.board.1233195087" name="Board" superClass="fr.ac6.managedbuild.option.gnu.cross.board" useByScannerDiscovery="false" value="STM32F407G-DISC1" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="fr.ac6.managedbuild.targetPlatform.gnu.cross.272410083" isAbstract="false" osList="all" superClass="fr.ac6.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/LIB_MSE-SE}/Debug" id="fr.ac6.managedbuild.builder.gnu.cross.2094285296" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="fr.ac6.managedbuild.builder.gnu.cross"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1517787532" name="MCU GCC Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler">
+								<option id="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level.197927537" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.debugging.level.1059137711" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1195162538" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="STM32"/>
+									<listOptionValue builtIn="false" value="STM32F4"/>
+									<listOptionValue builtIn="false" value="STM32F407VGTx"/>
+									<listOptionValue builtIn="false" value="STM32F407G_DISC1"/>
+									<listOptionValue builtIn="false" value="DEBUG"/>
+									<listOptionValue builtIn="false" value="STM32F407xx"/>
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+								</option>
+								<option id="gnu.c.compiler.option.include.paths.1036999842" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/CMSIS/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/CMSIS/device}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/HAL_Driver/Inc/Legacy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ampire480272}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ampire640480}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/Common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/cs43l22}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/exc7200}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ft6x06}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ili9325}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ili9341}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/l3gd20}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/lis302dl}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/lis3dsh}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ls016b8uy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/lsm303dlhc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/mfxstm32l152}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/n25q128a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/n25q256a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/n25q512a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/otm8009a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ov2640}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/s25fl512s}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/s5k5cag}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/st7735}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/st7789h2}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/stmpe1600}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/stmpe811}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ts3510}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/wm8994}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/STM32F4-Discovery}&quot;"/>
+								</option>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.1257087310" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s.2057926183" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.1383772407" name="MCU G++ Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler">
+								<option id="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level.1784412588" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.596447081" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.linker.788032345" name="MCU GCC Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.linker"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.262582745" name="MCU G++ Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.archiver.684071694" name="MCU GCC Archiver" superClass="fr.ac6.managedbuild.tool.gnu.archiver"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.assembler.905068891" name="MCU GCC Assembler" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler">
+								<option id="gnu.both.asm.option.include.paths.585808790" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/CMSIS/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/CMSIS/device}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/HAL_Driver/Inc/Legacy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ampire480272}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ampire640480}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/Common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/cs43l22}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/exc7200}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ft6x06}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ili9325}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ili9341}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/l3gd20}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/lis302dl}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/lis3dsh}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ls016b8uy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/lsm303dlhc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/mfxstm32l152}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/n25q128a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/n25q256a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/n25q512a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/otm8009a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ov2640}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/s25fl512s}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/s5k5cag}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/st7735}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/st7789h2}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/stmpe1600}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/stmpe811}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ts3510}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/wm8994}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/STM32F4-Discovery}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1228247565" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.assembler.input.1989874014" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="stm32f407g-disc1_hal_lib;fr.ac6.managedbuild.config.gnu.cross.lib.debug.817684819" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/stm32f407g-disc1_hal_lib"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/stm32f407g-disc1_hal_lib/Debug"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="stm32f407g-disc1_hal_lib" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="fr.ac6.managedbuild.config.gnu.cross.lib.release.589429433">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="fr.ac6.managedbuild.config.gnu.cross.lib.release.589429433" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/LIB_MSE-SE"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/LIB_MSE-SE/Release"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="LIB_MSE-SE" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="fr.ac6.managedbuild.config.gnu.cross.lib.release.589429433" name="Release" parent="fr.ac6.managedbuild.config.gnu.cross.lib.release">
+					<folderInfo id="fr.ac6.managedbuild.config.gnu.cross.lib.release.589429433." name="/" resourcePath="">
+						<toolChain id="fr.ac6.managedbuild.toolchain.gnu.cross.lib.release.633292663" name="Ac6 STM32 MCU GCC" superClass="fr.ac6.managedbuild.toolchain.gnu.cross.lib.release">
+							<option id="fr.ac6.managedbuild.option.gnu.cross.mcu.521074670" name="Mcu" superClass="fr.ac6.managedbuild.option.gnu.cross.mcu" value="STM32F407VGTx" valueType="string"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.fpu.510375380" name="Floating point hardware" superClass="fr.ac6.managedbuild.option.gnu.cross.fpu" value="fr.ac6.managedbuild.option.gnu.cross.fpu.fpv4-sp-d16" valueType="enumerated"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.floatabi.506343604" name="Floating-point ABI" superClass="fr.ac6.managedbuild.option.gnu.cross.floatabi" value="fr.ac6.managedbuild.option.gnu.cross.floatabi.hard" valueType="enumerated"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.board.837768728" name="Board" superClass="fr.ac6.managedbuild.option.gnu.cross.board" value="STM32F407G-DISC1" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="fr.ac6.managedbuild.targetPlatform.gnu.cross.306832003" isAbstract="false" osList="all" superClass="fr.ac6.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/LIB_MSE-SE}/Release" id="fr.ac6.managedbuild.builder.gnu.cross.1652774062" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="fr.ac6.managedbuild.builder.gnu.cross"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.810839935" name="MCU GCC Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler">
+								<option id="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level.210413642" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="fr.ac6.managedbuild.gnu.c.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.820389148" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1925849997" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="STM32"/>
+									<listOptionValue builtIn="false" value="STM32F4"/>
+									<listOptionValue builtIn="false" value="STM32F407VGTx"/>
+									<listOptionValue builtIn="false" value="STM32F407G_DISC1"/>
+									<listOptionValue builtIn="false" value="STM32F407xx"/>
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+								</option>
+								<option id="gnu.c.compiler.option.include.paths.1713854025" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/CMSIS/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/CMSIS/device}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/HAL_Driver/Inc/Legacy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ampire480272}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ampire640480}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/Common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/cs43l22}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/exc7200}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ft6x06}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ili9325}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ili9341}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/l3gd20}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/lis302dl}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/lis3dsh}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ls016b8uy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/lsm303dlhc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/mfxstm32l152}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/n25q128a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/n25q256a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/n25q512a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/otm8009a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ov2640}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/s25fl512s}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/s5k5cag}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/st7735}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/st7789h2}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/stmpe1600}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/stmpe811}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ts3510}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/wm8994}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/STM32F4-Discovery}&quot;"/>
+								</option>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.470598382" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s.1219108692" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.1744906644" name="MCU G++ Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler">
+								<option id="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level.27696874" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="fr.ac6.managedbuild.gnu.cpp.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.287006566" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.linker.777880650" name="MCU GCC Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.linker"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.476624853" name="MCU G++ Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.archiver.1728532347" name="MCU GCC Archiver" superClass="fr.ac6.managedbuild.tool.gnu.archiver"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.assembler.lib.release.1796329285" name="MCU GCC Assembler" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.lib.release">
+								<option id="gnu.both.asm.option.include.paths.1569045508" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/CMSIS/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/CMSIS/device}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/HAL_Driver/Inc/Legacy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ampire480272}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ampire640480}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/Common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/cs43l22}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/exc7200}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ft6x06}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ili9325}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ili9341}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/l3gd20}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/lis302dl}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/lis3dsh}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ls016b8uy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/lsm303dlhc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/mfxstm32l152}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/n25q128a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/n25q256a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/n25q512a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/otm8009a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ov2640}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/s25fl512s}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/s5k5cag}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/st7735}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/st7789h2}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/stmpe1600}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/stmpe811}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/ts3510}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/Components/wm8994}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32f407g-disc1_hal_lib/Utilities/STM32F4-Discovery}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.740807301" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.assembler.input.440483653" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="stm32f407g-disc1_hal_lib;fr.ac6.managedbuild.config.gnu.cross.lib.release.1668906084" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/stm32f407g-disc1_hal_lib"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/stm32f407g-disc1_hal_lib/Release"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="stm32f407g-disc1_hal_lib" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+			</storageModule>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="LIB_MSE-SE.fr.ac6.managedbuild.target.gnu.cross.lib.1423500451" name="Static Library" projectType="fr.ac6.managedbuild.target.gnu.cross.lib"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.lib.debug.1918536447;fr.ac6.managedbuild.config.gnu.cross.lib.debug.1918536447.;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1517787532;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.1257087310">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.lib.release.589429433;fr.ac6.managedbuild.config.gnu.cross.lib.release.589429433.;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.810839935;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.470598382">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>

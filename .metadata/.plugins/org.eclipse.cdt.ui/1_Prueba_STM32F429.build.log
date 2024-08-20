@@ -1,0 +1,10 @@
+16:30:41 **** Incremental Build of configuration Debug for project 1_Prueba_STM32F429 ****
+make -j4 all 
+arm-none-eabi-size   1_Prueba_STM32F429.elf 
+   text	   data	    bss	    dec	    hex	filename
+  46660	    156	  37596	  84412	  149bc	1_Prueba_STM32F429.elf
+Finished building: default.size.stdout
+ 
+
+16:30:41 Build Finished. 0 errors, 0 warnings. (took 471ms)
+

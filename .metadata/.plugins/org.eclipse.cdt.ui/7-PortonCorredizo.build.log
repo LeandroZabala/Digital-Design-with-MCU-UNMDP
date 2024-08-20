@@ -1,0 +1,13 @@
+11:04:41 **** Build of configuration Debug for project 7-PortonCorredizo ****
+make all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -I"C:/DDCM/7-PortonCorredizo/inc" -x assembler-with-cpp -MMD -MP -MF"startup/startup_stm32f407xx.d" -MT"startup/startup_stm32f407xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "startup/startup_stm32f407xx.o" "../startup/startup_stm32f407xx.s"
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F4DISCOVERY -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -c -I"C:/DDCM/LIB_MSE-SE/inc" -I"C:/DDCM/7-PortonCorredizo/inc" -O0 -ffunction-sections -Wall -fstack-usage -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/main.o"
+../src/main.c:6:10: fatal error: Control.h: No such file or directory
+    6 | #include "Control.h"
+      |          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:25: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+11:04:41 Build Failed. 2 errors, 0 warnings. (took 486ms)
+

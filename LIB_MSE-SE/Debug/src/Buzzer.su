@@ -1,0 +1,4 @@
+Buzzer.c:13:6:Buzzer_Init	32	static
+Buzzer.c:66:6:play_Buzzer	16	static
+Buzzer.c:85:6:stop_Buzzer	8	static
+Buzzer.c:90:6:Error_Handler	4	static

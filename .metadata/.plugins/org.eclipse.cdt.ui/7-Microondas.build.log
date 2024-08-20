@@ -1,0 +1,10 @@
+16:28:26 **** Incremental Build of configuration Debug for project 7-Microondas ****
+make all 
+arm-none-eabi-size   7-Microondas.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17860	     20	   1516	  19396	   4bc4	7-Microondas.elf
+Finished building: default.size.stdout
+ 
+
+16:28:26 Build Finished. 0 errors, 0 warnings. (took 249ms)
+

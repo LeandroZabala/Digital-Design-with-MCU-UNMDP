@@ -1,0 +1,9 @@
+main.c:27:5:main	24	static
+main.c:84:6:SysTickHook	8	static
+main.c:97:6:microondas_selector	16	static
+main.c:118:6:microondas_display	64	static
+main.c:140:6:microondas_displayapagado	16	static
+main.c:148:6:microondas_decimalPoint	16	static
+main.c:157:6:microondas_play	16	static
+main.c:165:6:microondas_set_timer	32	static
+main.c:171:6:microondas_unset_timer	16	static
